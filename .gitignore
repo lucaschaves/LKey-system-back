@@ -1,0 +1,12 @@
+############ PASTE ############
+
+node_modules
+__tests__
+coverage
+.vscode/
+build
+
+############ FILE ############
+yarn.lock
+yarn-error.log
+.env
