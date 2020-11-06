@@ -1,0 +1,6 @@
+### Pastes ###
+node_modules
+dist
+
+### Files ###
+*.lock
