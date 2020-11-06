@@ -33,6 +33,9 @@ class Lesson {
     @Column({ type: 'integer' })
     duration: number
 
+    @Column({ type: 'integer' })
+    status: number
+
     @Column({ type: 'boolean', default: true })
     enabled: boolean
 
