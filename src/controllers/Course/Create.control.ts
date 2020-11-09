@@ -19,7 +19,7 @@ class CreateCourseControl {
         const findCourse = await courseRepository.findOne({ where: { name } })
 
         if (findCourse) {
-            throw new Error('Course already registered')
+            throw new Error('Curso já registrado!')
         }
 
         const course = courseRepository.create({
@@ -29,7 +29,6 @@ class CreateCourseControl {
         })
 
         await courseRepository.save(course)
-
         return course
     }
 }

@@ -12,7 +12,9 @@
         "typeorm:drop": "ts-node-dev ./node_modules/typeorm/cli.js migration:revert"
     },
     "dependencies": {
+        "@types/cors": "^2.8.8",
         "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
         "express": "^4.17.1",
         "pg": "^8.4.2",
         "reflect-metadata": "^0.1.13",
